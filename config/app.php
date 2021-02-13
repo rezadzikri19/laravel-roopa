@@ -172,13 +172,13 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
         Netshell\Paypal\PaypalServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
-        Unicodeveloper\Paystack\PaystackServiceProvider::class,
+        Mehedi\Paystack\PaystackServiceProvider::class,
         MehediIitdu\CoreComponentRepository\CoreComponentRepositoryServiceProvider::class,
         Nexmo\Laravel\NexmoServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Anand\LaravelPaytmWallet\PaytmWalletServiceProvider::class,
         \Laravel\Passport\PassportServiceProvider::class,
-        KingFlamez\Rave\RaveServiceProvider::class,
+        // KingFlamez\Rave\RaveServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -243,12 +243,12 @@ return [
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Paypal' => Netshell\Paypal\Facades\Paypal::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
-        'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
+        'Paystack' => Mehedi\Paystack\Facades\Paystack::class,
         'Nexmo' => Nexmo\Laravel\Facade\Nexmo::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'PaytmWallet' => Anand\LaravelPaytmWallet\Facades\PaytmWallet::class,
         'Str' => Illuminate\Support\Str::class,
-        'Rave' => KingFlamez\Rave\Facades\Rave::class,
+        // 'Rave' => KingFlamez\Rave\Facades\Rave::class,
     ],
 
 ];
